@@ -18,13 +18,14 @@ class Cart {
             The total price is ${this.total}
         `
     }
+    // removeFromCart(){
+
+    // }
+    // updateProductInCart(){
+
+    // }
 }
 
 const product1 = new Cart(20, 'house');
 console.log(product1.addToCart());
 console.log(product1.cartTotal());
-
-// product1 = new Cart(40, 'work');
-
-// console.log(product1.addToCart());
-// console.log(product1.cartTotal());
